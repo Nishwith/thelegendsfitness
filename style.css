@@ -606,6 +606,13 @@ padding: 6px 0 0 0;
     padding: 3px 6px;
     font-size:16px;
   }
+  
+.transformations {
+  padding: 20px 0px;
+}
+.slider-container{
+  width: 95%;
+}
 }
 
 @media (max-width: 860px) {
@@ -727,6 +734,9 @@ padding: 6px 0 0 0;
     width: 90px;
     /* Adjust the size of the image border */
     height: 90px;
+  }
+  .nav_footer a{
+    padding: 8px;
   }
 
   .card__social {
