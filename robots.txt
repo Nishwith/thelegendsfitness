@@ -1,0 +1,17 @@
+# General Rules for Crawlers
+User-agent: *
+
+# Allow Crawling for Important Pages
+Allow: /
+Allow: /index.html
+Allow: /style.css
+Allow: /script.js
+
+# Disallow Sensitive or Temporary Files/Directories
+Disallow: /admin/
+Disallow: /private/
+Disallow: /images/temp/
+Disallow: /test/
+
+# Sitemap Location
+Sitemap: https://www.thelegendsfitness.com/sitemap.xml
